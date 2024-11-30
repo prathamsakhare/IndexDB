@@ -1,4 +1,7 @@
 
+
+// Object stores are the data storage of IndexedDB. It is where data is stored. A database may have multiple object stores. Think of them as tables in RDBMS where we store data based on the type of data we want to store.
+
 let request = indexedDB.open("recordsDB", 1)
 
 request.onupgradeneeded = function(){
